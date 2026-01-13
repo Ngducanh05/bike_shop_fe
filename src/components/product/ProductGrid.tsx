@@ -14,7 +14,7 @@ type Product = {
 function resolveImage(path?: string) {
   if (!path) return "";
   if (path.startsWith("http")) return path;
-  const API = import.meta.env.VITE_API_BASE_URL || "http://localhost:8080";
+  const API = import.meta.env.VITE_API_BASE_URL || "https://bike-shop-fe-s6q6.onrender.com/";
   return `${API}/uploads/${path}`;
 }
 
