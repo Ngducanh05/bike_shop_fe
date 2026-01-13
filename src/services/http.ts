@@ -9,7 +9,7 @@ import type {
 type TokenPair = { accessToken: string; refreshToken: string };
 
 const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL || "http://localhost:8080";
+  import.meta.env.VITE_API_BASE_URL || "https://bike-shop-cjz9.onrender.com/";
 
 const ACCESS_KEY = "accessToken";
 const REFRESH_KEY = "refreshToken";
