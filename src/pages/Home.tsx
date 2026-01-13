@@ -6,16 +6,7 @@ import Skeleton from "../components/ui/Skeleton";
 import EmptyState from "../components/ui/EmptyState";
 import ProductGrid from "../components/product/ProductGrid";
 import { Button } from "../components/ui/Button";
-import type { ProductStatus } from "../components/product/ProductCard";
-
-type Product = {
-  product_id: string;
-  name: string;
-  price: string | number;
-  slug?: string;
-  main_image?: string;
-  status?: ProductStatus;
-};
+import type { Product } from "../types/product";
 
 function debug(msg: string, data?: unknown) {
   if (import.meta.env.DEV) console.log(`[HOME] ${msg}`, data ?? "");

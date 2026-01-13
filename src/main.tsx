@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client"
 import { RouterProvider } from "react-router-dom"
 import { router } from "./routes/router"
 import "./index.css"
-import { authStore } from "./store/auth.store";
+//import { authStore } from "./store/auth.store";
 
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
